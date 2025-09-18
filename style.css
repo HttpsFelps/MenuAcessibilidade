@@ -1,0 +1,50 @@
+body
+{
+    background-color: #FFF1F1;
+    color: #3B0270;
+    font-family: sans-serif;
+    text-align: center;
+    padding: 20px;
+}
+
+button
+{
+    background-color: #E9B3FB;
+    border-radius: 10px;
+    padding: 5px;
+    border: 0;
+}
+
+
+.alto-contraste
+{
+    background-color: #3B0270;
+    color: #E9B3FB;
+}
+
+a
+{
+    color: #6F00FF;
+}
+
+.alto-contraste a
+{
+    color: #FFF1F1;
+}
+
+.icone
+{
+    height: 30px;
+    width: 30px;
+}
+.img
+{
+    display: flex;
+    justify-content: center;
+    height: 400px;
+}
+
+.preto-e-branco 
+{
+    filter: grayscale(100%);
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Acessibilidade</title>
+</head>
+<body>
+    <button id="libras"><img src="assets/ico-libras.png" class="icone" title="Ferramenta libras"></button>
+    <button id="aumentar-texto"><img src="assets/ico-amais.png" title="Ferramenta aumentar texto" class="icone"></button>
+    <button id="diminuir-texto"><img src="assets/ico-amenos.png" title="Ferramenta diminuir texto" class="icone"></button>
+    <button id="alternar-contraste"><img src="assets/ico-altocontraste.png" title="Ferramenta alto contraste" class="icone"></button>
+    <button id="preto-e-branco"><img src="assets/ico-pretobranco.png" title="Ferramenta preto e branco" class="icone"></button>
+    <button id="comando-de-voz"><img src="assets/ico-voz.png" title="Ferramenta comando de voz" class="icone"></button>
+    <h1>Testando Ferramentas ACD</h1>
+    Testando link <a href="tutorial.html">click aqui</a>
+    <div class="img">
+        <img src="assets/acb.png" alt="Acessibilidade">
+    </div>
+    
+    <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+    <div vw-plugin-wrapper>
+        <div class="vw-plugin-top-wrapper">
+        </div>
+    </div>
+    </div>
+
+    <img src="assets/cadeirante.jpg" alt="é errado rir disso? Imagem de um homem com mobilidade reduzida de capacete de moto dando um 'grau' em uma cadeira de rodas">
+
+    <script src="script.js"></script>
+     <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+    <script>
+        new window.VLibras.Widget('https://vlibras.gov.br/app');
+    </script>
+
+</body>
+</html>
